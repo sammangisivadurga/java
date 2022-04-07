@@ -1,0 +1,35 @@
+import java.util.*;
+public class Main
+{
+
+    public static void main(String[] args)
+    {
+
+        String s;
+        int cost;
+        double time,rate,si,emi;
+        Scanner sc=new Scanner(System.in);
+      System.out.println("Enter the name of the car");
+       
+      s=sc.nextLine();
+        System.out.println("Enter the cost of the car,Time to repay the EMI, Rate of Interest");
+        cost=sc.nextInt();
+        time=sc.nextDouble();
+        rate=sc.nextDouble();
+        si=(cost*time*rate)/100;
+        emi=(cost+si)/(time*12);
+        System.out.printf("EMI of the car is %.2f ",emi);
+    }
+}  
+OUTPUT: 
+Enter the name of the carbenz 
+
+Enter the cost of the car,Time to repay the EMI, Rate of Interest
+
+1000000 
+
+3 
+
+5000 
+
+EMI of the car is 4194444.44 
