@@ -1,0 +1,59 @@
+import java.util.*;
+
+class Type
+
+{
+
+    public static void main(String[] args)
+
+    {
+
+        String string ;
+
+        System.out.println("Enter a string or a numeric");
+
+        Scanner sc=new Scanner(System.in);
+
+        string=sc.nextLine();
+
+        boolean numeric = true;
+
+        try {
+
+            Double num = Double.parseDouble(string);
+
+            }
+
+         catch (NumberFormatException e)
+
+        {
+
+            numeric = false;
+
+        }
+
+        if(numeric)
+
+            System.out.println(string + " is a number");
+
+        else
+
+            System.out.println(string + " is not a number");
+
+    }
+
+} 
+
+OUTPUT: 
+
+1.Enter a string or a numeric
+
+sivadurga 
+
+sivadurga  is not a number
+
+2.Enter a string or a numeric
+
+12345 
+
+12345  is a number
