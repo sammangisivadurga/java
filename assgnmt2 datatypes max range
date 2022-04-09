@@ -1,0 +1,45 @@
+public class Mainn
+ {
+   public static void main(String[] args)
+ {
+      System.out.println("Integer Datatype values...");
+      System.out.println("Min = " + Integer.MIN_VALUE);
+      System.out.println("Max = " + Integer.MAX_VALUE);
+
+      System.out.println("Float Datatype values...");
+      System.out.println("Min = " + Float.MIN_VALUE);
+      System.out.println("Max = " + Float.MAX_VALUE);
+
+      System.out.println("Double Datatype values...");
+      System.out.println("Min = " + Double.MIN_VALUE);
+      System.out.println("Max = " + Double.MAX_VALUE);
+
+      System.out.println("Byte Datatype values...");
+      System.out.println("Min = " + Byte.MIN_VALUE);
+      System.out.println("Max = " + Byte.MAX_VALUE);
+
+      System.out.println("Short Datatype values...");
+      System.out.println("Min = " + Short.MIN_VALUE);
+      System.out.println("Max = " + Short.MAX_VALUE);
+   }
+}
+
+OUTPUT:
+C:\Users\admin\Desktop>javac Mainn.java
+
+C:\Users\admin\Desktop>java Mainn
+Integer Datatype values...
+Min = -2147483648
+Max = 2147483647
+Float Datatype values...
+Min = 1.4E-45
+Max = 3.4028235E38
+Double Datatype values...
+Min = 4.9E-324
+Max = 1.7976931348623157E308
+Byte Datatype values...
+Min = -128
+Max = 127
+Short Datatype values...
+Min = -32768
+Max = 32767
