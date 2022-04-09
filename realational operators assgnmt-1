@@ -1,0 +1,32 @@
+import java.util.*;
+public class Rela_oper
+{
+public static void main(String[] args)
+{
+int a,b;
+System.out.println("Enter two values");
+Scanner sn=new Scanner(System.in);
+a=sn.nextInt();
+b=sn.nextInt();
+System.out.println(a+" == "+ b+ " = " + (a == b) );
+System.out.println(a+" != "+ b+ " = " + (a != b) );
+System.out.println(a+" > "+ b+ " = " + (a > b) );
+System.out.println(a+" < "+ b+ " = " + (a < b) );
+System.out.println(a+" >= "+ b+ " = " + (a >= b) );
+System.out.println(a+" <= "+ b+ " = " + (a <= b) );
+}
+}
+
+OUTPUT:
+C:\Users\admin\Desktop>javac Rela_oper.java
+
+C:\Users\admin\Desktop>java Rela_oper
+Enter two values
+50
+60
+50  == 60 = false
+50  != 60 = true
+50  > 60 = false
+50  < 60 = true
+50  >= 60 = false
+50  <= 60 = true
