@@ -1,0 +1,45 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args)
+ {
+		int a;
+		System.out.println("Enter a value");
+		Scanner sc=new Scanner(System.in);
+		a=sc.nextInt();
+     System.out.println("Left shift operations for 5 times on  "+a);		
+     for(int i=1;i<=5;i++)
+     System.out.println(a+"<<"+i+"="+(a<<i));
+     System.out.println("Right shift operations for 5 times on  "+a);		
+     for(int i=1;i<=5;i++)
+     System.out.println(a+">>"+i+"="+(a>>i));
+}
+} 
+OUTPUT 
+java -cp /tmp/cnpeEcZHNN Main
+
+Enter a value
+
+20 
+
+Left shift operations for 5 times on  2020<<1=40
+
+20<<2=80
+
+20<<3=160
+
+20<<4=320
+
+20<<5=640
+
+Right shift operations for 5 times on  20
+
+20>>1=10
+
+20>>2=5
+
+20>>3=2
+
+20>>4=1
+
+20>>5=0
