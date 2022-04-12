@@ -1,0 +1,32 @@
+
+import java.util.*;
+
+public class Main
+
+{
+
+	public static void main(String[] args) {
+
+		System.out.println("Enter any number");
+
+		Scanner sc=new Scanner(System.in);
+
+		int num=sc.nextInt();
+
+        if(num%2==0)
+
+          System.out.println(num +" is even number");
+
+        else
+
+          System.out.println(num +" is odd number");
+
+	}
+
+}  
+
+OUTPUT 
+Enter any number23 
+
+23 is odd number
+
