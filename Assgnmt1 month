@@ -74,4 +74,12 @@ System.out.print(" Please Enter Month Number from 1 to 12  : ");
 
 	}
 
-}
+} 
+OUTPUT 
+Please Enter Month Number from 1 to 12  : 6 
+
+30 Days in this Month
+
+
+
+
