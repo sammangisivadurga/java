@@ -14,3 +14,26 @@ i=i+2;
  }
  }
 }
+OUTPUT 
+Enter a number to print even series10 
+
+2
+
+4
+
+6
+
+8
+
+10
+
+
+
+
+
+
+
+
+
+
+
