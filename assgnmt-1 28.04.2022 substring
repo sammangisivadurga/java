@@ -1,0 +1,35 @@
+import java.util.*;
+class Substring
+{
+public static void main (String args[])
+{
+      Scanner sc= new Scanner(System.in);
+       String s1,s2;
+       System.out.println("enter first string");
+       s1=sc.nextLine();
+       System.out.println("enter second string");
+       s2=sc.nextLine();
+      if(s1.equals(s2))
+      System.out.println("strings are same");
+      else
+      System.out.println("strings are not same");
+     if(s1.contains(s2))
+     System.out.println("given string is substring of first");
+     else
+    System.out.println("given string is not substring of first");
+    }
+}
+
+
+output
+
+C:\Users\admin\Desktop>javac Substring.java
+
+C:\Users\admin\Desktop>java Substring
+enter first string
+sivadurga
+enter second string
+durga
+strings are not same
+given string is substring of first
+
