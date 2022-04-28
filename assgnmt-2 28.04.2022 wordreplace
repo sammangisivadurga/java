@@ -1,0 +1,32 @@
+import java.util.*;
+class Wordsreplace
+{
+public static void main (String args[])
+{
+       Scanner sc= new Scanner(System.in);
+       String s1,s2;
+       System.out.println("enter first string");
+       s1=sc.nextLine();
+       System.out.println("Which character u want to replace");
+       String ch1=sc.next();
+       System.out.println("With which char u want to replace ");
+       String ch2=sc.next();
+       s2=s1.replace(ch1,ch2);
+       String  st[]=s1.split("\\s");
+       int n=st.length;
+      System.out.println(n);
+      System.out.println(s2);
+    }
+}
+output
+C:\Users\admin\Desktop>javac Wordsreplace.java
+
+C:\Users\admin\Desktop>java Wordsreplace
+enter first string
+durga
+Which character u want to replace
+r
+With which char u want to replace
+R
+1
+duRga
