@@ -1,0 +1,26 @@
+import java.util.*;
+ class Revers
+{
+    public static void main(String[] args)
+    {
+        String input;
+        System.out.println("Enter a string");
+        Scanner sc=new Scanner(System.in);
+        input=sc.nextLine();
+ 
+        char[] try1 = input.toCharArray();
+        System.out.println("Reverse string");
+ 
+        for (int i = try1.length - 1; i >= 0; i--)
+            System.out.print(try1[i]);
+    }
+}
+OUTPUT:
+
+C:\Users\admin\Desktop>javac  Revers.java
+
+C:\Users\admin\Desktop>java Revers
+Enter a string
+yashikA
+Reverse string
+Akihsay
