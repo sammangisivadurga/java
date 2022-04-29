@@ -1,0 +1,30 @@
+import java.util.*;
+public class Vowelscount 
+{
+   public static void main(String args[])
+   {
+      int count = 0;
+      System.out.println("Enter a sentence :");
+      Scanner sc = new Scanner(System.in);
+      String str = sc.nextLine();
+      str=str.toLowerCase();
+      for (int i=0 ; i<str.length(); i++)
+      {
+         char ch = str.charAt(i);
+         
+         if(ch == 'a'|| ch == 'e'|| ch == 'i' ||ch == 'o' ||ch == 'u')
+         {
+            count ++;
+         }
+      }
+      System.out.println("Number of vowels in the given sentence is "+count);
+   }
+}
+OUTPUT:
+
+C:\Users\admin\Desktop>javac Vowelscount.java
+
+C:\Users\admin\Desktop>java Vowelscount
+Enter a sentence :
+hai this is sivadurga
+Number of vowels in the given sentence is 8
