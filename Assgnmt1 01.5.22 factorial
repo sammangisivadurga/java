@@ -26,4 +26,19 @@ class Main
 
 }  
 
-OUTPUT 
+OUTPUT  
+java -cp /tmp/DelUcuHwhl Main
+
+Enter a value
+
+4 
+
+Factorial of 4 is: 24
+
+
+
+
+
+
+
+
