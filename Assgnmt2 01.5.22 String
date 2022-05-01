@@ -31,5 +31,18 @@ public static void main(String[] args)
  
 }   
  
- OUTPUT 
+ OUTPUT  
+ tmp/FqkoR5D0n2 Main
+
+Enter the number of strings you want to enter: 2 
+
+siva 
+
+durga 
+
+You have entered: 
+
+siva 
+
+durga
  
